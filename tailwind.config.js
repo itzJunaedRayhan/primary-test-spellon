@@ -3,11 +3,12 @@ module.exports = {
   purge: ['./dist/*.{html,js}'],
   theme: {
     screens: {
-      'xs': '374px',
+      'xs': '360px',
       'sm': '576px',
       'md': '768px',
       'lg': '990px',
-      'xl': '1200px'
+      'xl': '1200px',
+      '2xl' : '1400px'
     },
     extend: {
       fontFamily: {
