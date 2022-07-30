@@ -488,12 +488,6 @@ h1, h2, h3, h4, h5, h6, p{
   }
 }
 
-@media (min-width: 375px){
-  .container{
-    max-width: 375px;
-  }
-}
-
 @media (min-width: 576px){
   .container{
     max-width: 576px;
@@ -800,16 +794,16 @@ h1, h2, h3, h4, h5, h6, p{
     min-height: 120px;
   }
 
-  .xs\:w-\[340px\]{
-    width: 340px;
+  .xs\:w-\[360px\]{
+    width: 360px;
   }
 
-  .xs\:w-\[300px\]{
-    width: 300px;
+  .xs\:w-\[325px\]{
+    width: 325px;
   }
 
-  .xs\:w-\[210px\]{
-    width: 210px;
+  .xs\:w-\[228px\]{
+    width: 228px;
   }
 
   .xs\:w-\[56px\]{
@@ -826,14 +820,6 @@ h1, h2, h3, h4, h5, h6, p{
 
   .xs\:w-\[120px\]{
     width: 120px;
-  }
-
-  .xs\:w-\[20px\]{
-    width: 20px;
-  }
-
-  .xs\:w-\[290px\]{
-    width: 290px;
   }
 
   .xs\:max-w-\[302px\]{
@@ -927,20 +913,6 @@ h1, h2, h3, h4, h5, h6, p{
 
   .xs\:leading-\[15px\]{
     line-height: 15px;
-  }
-}
-
-@media (min-width: 375px){
-  .\32xs\:w-\[367px\]{
-    width: 367px;
-  }
-
-  .\32xs\:w-\[325px\]{
-    width: 325px;
-  }
-
-  .\32xs\:w-\[225px\]{
-    width: 225px;
   }
 }
 
