@@ -800,8 +800,8 @@ h1, h2, h3, h4, h5, h6, p{
     min-height: 120px;
   }
 
-  .xs\:w-\[345px\]{
-    width: 345px;
+  .xs\:w-\[340px\]{
+    width: 340px;
   }
 
   .xs\:w-\[300px\]{
@@ -826,6 +826,14 @@ h1, h2, h3, h4, h5, h6, p{
 
   .xs\:w-\[120px\]{
     width: 120px;
+  }
+
+  .xs\:w-\[20px\]{
+    width: 20px;
+  }
+
+  .xs\:w-\[290px\]{
+    width: 290px;
   }
 
   .xs\:max-w-\[302px\]{
