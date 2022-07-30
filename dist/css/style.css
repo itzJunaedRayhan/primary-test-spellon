@@ -838,6 +838,14 @@ h1, h2, h3, h4, h5, h6, p{
     max-width: 90px;
   }
 
+  .xs\:max-w-\[02px\]{
+    max-width: 02px;
+  }
+
+  .xs\:max-w-\[102px\]{
+    max-width: 102px;
+  }
+
   .xs\:-translate-x-\[40px\]{
     --tw-translate-x: -40px;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
