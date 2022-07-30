@@ -547,11 +547,6 @@ h1, h2, h3, h4, h5, h6, p{
   margin-right: auto;
 }
 
-.my-6{
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
 .my-3{
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
@@ -659,12 +654,25 @@ h1, h2, h3, h4, h5, h6, p{
   padding-right: 0.25rem;
 }
 
+.py-20{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .pt-\[130px\]{
   padding-top: 130px;
 }
 
 .pb-2{
   padding-bottom: 0.5rem;
+}
+
+.pt-\[30px\]{
+  padding-top: 30px;
+}
+
+.pt-\[50px\]{
+  padding-top: 50px;
 }
 
 .text-center{
@@ -917,17 +925,292 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 @media (min-width: 576px){
+  .sm\:-right-\[70\]{
+    right: -70;
+  }
+
+  .sm\:-right-\[70px\]{
+    right: -70px;
+  }
+
+  .sm\:bottom-\[40px\]{
+    bottom: 40px;
+  }
+
+  .sm\:-bottom-\[40px\]{
+    bottom: -40px;
+  }
+
+  .sm\:top-\[50\]{
+    top: 50;
+  }
+
+  .sm\:top-\[50px\]{
+    top: 50px;
+  }
+
+  .sm\:-right-\[30px\]{
+    right: -30px;
+  }
+
+  .sm\:-bottom-\[53px\]{
+    bottom: -53px;
+  }
+
+  .sm\:right-\[15\]{
+    right: 15;
+  }
+
+  .sm\:right-\[15\%\]{
+    right: 15%;
+  }
+
+  .sm\:bottom-0{
+    bottom: 0px;
+  }
+
+  .sm\:bottom-\[10px\]{
+    bottom: 10px;
+  }
+
+  .sm\:right-\[\]{
+    right: ;
+  }
+
+  .sm\:right-\[62px\]{
+    right: 62px;
+  }
+
+  .sm\:-right-\[62px\]{
+    right: -62px;
+  }
+
+  .sm\:-right-\[62\%\]{
+    right: -62%;
+  }
+
+  .sm\:right-\[62\%\]{
+    right: 62%;
+  }
+
+  .sm\:top-\[10\%\]{
+    top: 10%;
+  }
+
+  .sm\:left-\[16\%\]{
+    left: 16%;
+  }
+
+  .sm\:h-\[\]{
+    height: ;
+  }
+
+  .sm\:h-\[80\%\]{
+    height: 80%;
+  }
+
   .sm\:w-full{
     width: 100%;
+  }
+
+  .sm\:w-\[98\%\]{
+    width: 98%;
+  }
+
+  .sm\:w-\[9\%\]{
+    width: 9%;
+  }
+
+  .sm\:w-\[95\%\]{
+    width: 95%;
+  }
+
+  .sm\:w-\[90\%\]{
+    width: 90%;
+  }
+
+  .sm\:w-\[97\]{
+    width: 97;
+  }
+
+  .sm\:w-\[97\%\]{
+    width: 97%;
+  }
+
+  .sm\:w-\[\]{
+    width: ;
+  }
+
+  .sm\:w-\[85\%\]{
+    width: 85%;
+  }
+
+  .sm\:w-\[80\%\]{
+    width: 80%;
+  }
+
+  .sm\:w-\[90\]{
+    width: 90;
+  }
+
+  .sm\:w-\[60\%\]{
+    width: 60%;
+  }
+
+  .sm\:w-\[70\%\]{
+    width: 70%;
+  }
+
+  .sm\:w-\[67\%\]{
+    width: 67%;
+  }
+
+  .sm\:w-\[65\%\]{
+    width: 65%;
+  }
+
+  .sm\:w-\[58\%\]{
+    width: 58%;
   }
 
   .sm\:max-w-full{
     max-width: 100%;
   }
 
+  .sm\:max-w-\[\]{
+    max-width: ;
+  }
+
+  .sm\:max-w-\[98\]{
+    max-width: 98;
+  }
+
+  .sm\:max-w-\[98\%\]{
+    max-width: 98%;
+  }
+
+  .sm\:max-w-\[125\]{
+    max-width: 125;
+  }
+
+  .sm\:max-w-\[125px\]{
+    max-width: 125px;
+  }
+
+  .sm\:translate-x-\[45\%\]{
+    --tw-translate-x: 45%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .sm\:-translate-x-\[45\%\]{
+    --tw-translate-x: -45%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
   .sm\:px-4{
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+}
+
+@media (min-width: 768px){
+  .md\:right-\[23\%\]{
+    right: 23%;
+  }
+
+  .md\:right-\[22\%\]{
+    right: 22%;
+  }
+
+  .md\:bottom-\[1\%\]{
+    bottom: 1%;
+  }
+
+  .md\:right-\[68\]{
+    right: 68;
+  }
+
+  .md\:right-\[68\%\]{
+    right: 68%;
+  }
+
+  .md\:-bottom-\[1\%\]{
+    bottom: -1%;
+  }
+
+  .md\:left-\[1\]{
+    left: 1;
+  }
+
+  .md\:left-\[1\%\]{
+    left: 1%;
+  }
+
+  .md\:-left-\[1\%\]{
+    left: -1%;
+  }
+}
+
+@media (min-width: 990px){
+  .lg\:-right-\[15px\]{
+    right: -15px;
+  }
+
+  .lg\:-right-\[10\%\]{
+    right: -10%;
+  }
+
+  .lg\:-right-\[9\%\]{
+    right: -9%;
+  }
+
+  .lg\:right-\[\]{
+    right: ;
+  }
+
+  .lg\:right-\[2\]{
+    right: 2;
+  }
+
+  .lg\:right-\[29\%\]{
+    right: 29%;
+  }
+
+  .lg\:bottom-\[0\]{
+    bottom: 0;
+  }
+
+  .lg\:bottom-0{
+    bottom: 0px;
+  }
+
+  .lg\:right-\[75\%\]{
+    right: 75%;
+  }
+
+  .lg\:top-\[5\%\]{
+    top: 5%;
+  }
+
+  .lg\:left-\[15\%\]{
+    left: 15%;
+  }
+
+  .lg\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .lg\:text-\[16px\]{
+    font-size: 16px;
+  }
+
+  .lg\:text-\[15px\]{
+    font-size: 15px;
+  }
+
+  .lg\:leading-\[26px\]{
+    line-height: 26px;
   }
 }
 
@@ -940,8 +1223,8 @@ h1, h2, h3, h4, h5, h6, p{
     top: -55px;
   }
 
-  .xl\:-right-\[120px\]{
-    right: -120px;
+  .xl\:-right-\[130px\]{
+    right: -130px;
   }
 
   .xl\:top-\[40px\]{
@@ -964,16 +1247,16 @@ h1, h2, h3, h4, h5, h6, p{
     bottom: -70px;
   }
 
-  .xl\:right-\[75\%\]{
-    right: 75%;
+  .xl\:right-\[63\%\]{
+    right: 63%;
   }
 
-  .xl\:-bottom-\[50px\]{
-    bottom: -50px;
+  .xl\:-bottom-\[55px\]{
+    bottom: -55px;
   }
 
-  .xl\:left-\[4\%\]{
-    left: 4%;
+  .xl\:left-\[3\%\]{
+    left: 3%;
   }
 
   .xl\:bottom-\[24\%\]{
@@ -986,34 +1269,6 @@ h1, h2, h3, h4, h5, h6, p{
 
   .xl\:top-\[3\%\]{
     top: 3%;
-  }
-
-  .xl\:right-\[6\%\]{
-    right: 6%;
-  }
-
-  .xl\:right-\[63\%\]{
-    right: 63%;
-  }
-
-  .xl\:-bottom-\[75px\]{
-    bottom: -75px;
-  }
-
-  .xl\:-bottom-\[55px\]{
-    bottom: -55px;
-  }
-
-  .xl\:left-\[2\%\]{
-    left: 2%;
-  }
-
-  .xl\:left-\[3\%\]{
-    left: 3%;
-  }
-
-  .xl\:-right-\[130px\]{
-    right: -130px;
   }
 
   .xl\:my-3{
@@ -1041,14 +1296,6 @@ h1, h2, h3, h4, h5, h6, p{
     height: 90px;
   }
 
-  .xl\:h-\[300px\]{
-    height: 300px;
-  }
-
-  .xl\:h-\[100px\]{
-    height: 100px;
-  }
-
   .xl\:h-\[314px\]{
     height: 314px;
   }
@@ -1073,20 +1320,8 @@ h1, h2, h3, h4, h5, h6, p{
     width: 90px;
   }
 
-  .xl\:w-\[530px\]{
-    width: 530px;
-  }
-
-  .xl\:w-\[270px\]{
-    width: 270px;
-  }
-
   .xl\:w-\[584px\]{
     width: 584px;
-  }
-
-  .xl\:w-\[\]{
-    width: ;
   }
 
   .xl\:w-\[315px\]{
@@ -1145,11 +1380,6 @@ h1, h2, h3, h4, h5, h6, p{
     font-size: 22px;
   }
 
-  .xl\:text-sm{
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-
   .xl\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -1161,14 +1391,6 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 @media (min-width: 1400px){
-  .\32xl\:w-\[1300px\]{
-    width: 1300px;
-  }
-
-  .\32xl\:w-\[130px\]{
-    width: 130px;
-  }
-
   .\32xl\:w-\[1302px\]{
     width: 1302px;
   }
