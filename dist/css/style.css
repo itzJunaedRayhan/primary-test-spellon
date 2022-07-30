@@ -808,8 +808,8 @@ h1, h2, h3, h4, h5, h6, p{
     width: 300px;
   }
 
-  .xs\:w-\[228px\]{
-    width: 228px;
+  .xs\:w-\[210px\]{
+    width: 210px;
   }
 
   .xs\:w-\[56px\]{
@@ -929,6 +929,10 @@ h1, h2, h3, h4, h5, h6, p{
 
   .\32xs\:w-\[325px\]{
     width: 325px;
+  }
+
+  .\32xs\:w-\[225px\]{
+    width: 225px;
   }
 }
 
