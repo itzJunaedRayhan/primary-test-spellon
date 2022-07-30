@@ -822,6 +822,10 @@ h1, h2, h3, h4, h5, h6, p{
     width: 120px;
   }
 
+  .xs\:w-\[356px\]{
+    width: 356px;
+  }
+
   .xs\:max-w-\[302px\]{
     max-width: 302px;
   }
@@ -830,20 +834,16 @@ h1, h2, h3, h4, h5, h6, p{
     max-width: 92px;
   }
 
+  .xs\:max-w-\[102px\]{
+    max-width: 102px;
+  }
+
   .xs\:max-w-\[86px\]{
     max-width: 86px;
   }
 
   .xs\:max-w-\[90px\]{
     max-width: 90px;
-  }
-
-  .xs\:max-w-\[02px\]{
-    max-width: 02px;
-  }
-
-  .xs\:max-w-\[102px\]{
-    max-width: 102px;
   }
 
   .xs\:-translate-x-\[40px\]{
